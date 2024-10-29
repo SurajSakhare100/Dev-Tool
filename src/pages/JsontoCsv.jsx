@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Trash2, Download, Copy } from 'lucide-react';
 
 function JsontoCsv() {
@@ -42,7 +42,9 @@ function JsontoCsv() {
       .catch(() => setCopySuccess('Failed to copy CSV.'));
     setTimeout(() => setCopySuccess(''), 2000); // Reset message after 2 seconds
   };
-
+  useEffect(() => {
+    document.title = 'JSON to CSV Converter';
+  }, []);
   return (
     <div className="flex flex-col items-center p-8 bg-gray-100 min-h-screen rounded-lg mt-20">
       <h1 className="text-3xl font-bold mb-6">JSON to CSV Converter</h1>

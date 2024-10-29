@@ -1,6 +1,6 @@
 // src/PdfConverter.js
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Download } from 'lucide-react';
 import html2pdf from 'html2pdf.js';
 
@@ -59,7 +59,9 @@ const PdfConverter = () => {
       setError('Invalid file. Please upload a valid HTML file.');
     }
   };
-
+  useEffect(() => {
+    document.title = 'Html to Pdf Convertor';
+  }, []);
   return (
     <div className="flex flex-col items-center justify-center min-h-[40rem] bg-gray-100 p-4 mx-auto w-full lg:max-w-[66rem] mt-20 rounded-md">
       <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">

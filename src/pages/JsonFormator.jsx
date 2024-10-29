@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Trash2, Copy, Download } from 'lucide-react';
 
 function JsonFormatter() {
   const [jsonData, setJsonData] = useState('');
   const [formattedJson, setFormattedJson] = useState('');
   const [copySuccess, setCopySuccess] = useState('');
-
+  useEffect(() => {
+    document.title = 'JSON Formator';
+  }, []);
   const handleJsonChange = (e) => {
     setJsonData(e.target.value);
   };
