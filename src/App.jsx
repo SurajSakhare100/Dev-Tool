@@ -6,7 +6,7 @@ import Navbar from './components/navigation/navbar/Navbar';
 import Footer from './components/navigation/footer/Footer';
 import JsontoCsv from './pages/JsontoCsv';
 import JsonFormator from './pages/JsonFormator';
-import SignIn from './pages/Signin';
+import SignIn from './pages/SignIn';
 
 function App() {
   const location = useLocation();
