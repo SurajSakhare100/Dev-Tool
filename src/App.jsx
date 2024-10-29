@@ -11,9 +11,7 @@ import SignIn from './pages/SignIn';
 function App() {
   const location = useLocation();
 
-  useEffect(() => {
-    HSStaticMethods.autoInit();
-  }, [location.pathname]);
+
 
   return (
     <>
