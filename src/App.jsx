@@ -7,6 +7,7 @@ import Footer from './components/navigation/footer/Footer';
 import JsontoCsv from './pages/JsontoCsv';
 import JsonFormator from './pages/JsonFormator';
 import SignIn from './pages/SignIn';
+import PdfGenerator from './pages/PdfGenerator';
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/json-to-csv" element={<JsontoCsv />} />
           <Route path="/json-formator" element={<JsonFormator />} />
+          <Route path="/html-to-pdf" element={<PdfGenerator />} />
         </Routes>
       </div>
       <Footer/>
