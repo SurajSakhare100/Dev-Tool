@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: Suraj Sakhare
+Location: Pune, India
+LinkedIn: https://www.linkedin.com/in/suraj-sakhare10
+GitHub: https://github.com/SurajSakhare100
+
+/* THANKS */
+A big shoutout to all open-source contributors and the amazing frameworks that powered this project, including React, Vite, and Tailwind CSS.
