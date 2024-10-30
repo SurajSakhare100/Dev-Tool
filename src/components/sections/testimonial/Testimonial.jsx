@@ -12,18 +12,17 @@ function Testimonial() {
                     <div className="sm:-ms-4 py-6 sm:px-4">
                         <blockquote>
                             <span className="text-sm text-gray-800">
-                                "Using <span className="font-semibold text-blue-600">DevTool</span> has completely transformed how I handle <span className="font-semibold text-blue-600">JSON data</span>. The parsing and validation features save me hours of work. I can't imagine going back to my old process!"
-                            </span>
-
+                        Great product! I particularly love the <span className="font-semibold text-blue-600"> JSON formatter </span> it works well even on <span className="font-semibold text-blue-600"> compact JSON.</span> Although it's a relatively simple product, it performs admirably and has a nice user interface
+                        </span>
                             <footer className="mt-3 flex items-center">
                                 <img
                                     className="shrink-0 w-10 h-10 rounded-full"
-                                    src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                    alt="Josh Grazioso, Developer"
+                                    src="https://avatars.githubusercontent.com/u/144354322?v=4"
+                                    alt="Vaibhav Suryawansi, Data Analyst"
                                     loading="lazy"
                                 />
                                 <div className="ml-2">
-                                    <div className="text-xs text-gray-500">Josh Grazioso, Developer</div>
+                                    <div className="text-xs text-gray-500">Vaibhav Suryawansi, Data Analyst</div>
                                 </div>
                             </footer>
                         </blockquote>
@@ -38,12 +37,12 @@ function Testimonial() {
                             <footer className="mt-3 flex items-center">
                                 <img
                                     className="shrink-0 w-10 h-10 rounded-full"
-                                    src="https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                    alt="Nita Vaidya, Software Engineer"
+                                    src="https://avatars.githubusercontent.com/u/143414991?v=4"
+                                    alt="Abhinav Shinde, Web Devloper"
                                     loading="lazy"
                                 />
                                 <div className="ml-2">
-                                    <div className="text-xs text-gray-500">Nita Vaidya, Software Engineer</div>
+                                    <div className="text-xs text-gray-500">Abhinav Shinde, Web Devloper</div>
                                 </div>
                             </footer>
                         </blockquote>
