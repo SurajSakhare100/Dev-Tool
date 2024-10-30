@@ -8,7 +8,8 @@ import JsontoCsv from './pages/JsontoCsv';
 import JsonFormator from './pages/JsonFormator';
 import SignIn from './pages/SignIn';
 import PdfGenerator from './pages/PdfGenerator';
-
+import ReadmeGenerator from './pages/ReadmeGenerator';
+import 'highlight.js/styles/github.css';
 function App() {
   const location = useLocation();
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/json-to-csv" element={<JsontoCsv />} />
           <Route path="/json-formator" element={<JsonFormator />} />
           <Route path="/html-to-pdf" element={<PdfGenerator />} />
+          <Route path="/readme-generator" element={<ReadmeGenerator />} />
         </Routes>
       </div>
       <Footer/>

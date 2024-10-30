@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles.css or your main CSS file */
+.prose {
+  /* This is optional; it styles your markdown content */
+}
+
+
+.prose code {
+  background-color: #f5f5f5c6; /* Light gray for inline code */
+  padding: 2px 4px; /* Padding for inline code */
+  border-radius: 3px; 
+  border-radius: 5px;
+}
