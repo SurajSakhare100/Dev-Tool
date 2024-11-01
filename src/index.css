@@ -163,3 +163,58 @@ pre {
   border-radius: 0.5rem;
 
 }
+
+
+/* Styles for headings h1 to h6 */
+
+h1 {
+  font-size: 2.5rem;  /* 40px */
+  font-weight: bold;
+  color: #333;
+  margin: 1.5rem 0;  /* Top and bottom margin */
+}
+
+h2 {
+  font-size: 2rem;    /* 32px */
+  font-weight: bold;
+  color: #444;
+  margin: 1.5rem 0;
+}
+
+h3 {
+  font-size: 1.75rem; /* 28px */
+  font-weight: bold;
+  color: #555;
+  margin: 1.5rem 0;
+}
+
+h4 {
+  font-size: 1.5rem;  /* 24px */
+  font-weight: bold;
+  color: #666;
+  margin: 1.5rem 0;
+}
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+  color: #777;
+  margin: 1.5rem 0;
+}
+
+h6 {
+  font-size: 1rem;    /* 16px */
+  font-weight: bold;
+  color: #888;
+  margin: 1.5rem 0;
+}
+
+/* Optional: Styling for responsive design */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1rem; }
+  h6 { font-size: 0.875rem; }
+}
