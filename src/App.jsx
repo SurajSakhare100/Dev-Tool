@@ -9,10 +9,9 @@ import JsonFormator from './pages/JsonFormator';
 import SignIn from './pages/SignIn';
 import PdfGenerator from './pages/PdfGenerator';
 import 'highlight.js/styles/github.css';
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   const location = useLocation();
-
-
 
   return (
     <>
@@ -27,6 +26,7 @@ function App() {
           <Route path="/html-to-pdf" element={<PdfGenerator />} />
         </Routes>
       </div>
+      <Analytics/>
       <Footer/>
     </>
   );
